@@ -84,9 +84,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/my_db
-    username: root
-    password: 123456
+    url: jdbc:mysql://localhost:3306/miapi
+    username: mimi
+    password: a435564745
 ```
 
 2）执行 `sql/create_table.sql` 中的数据库语句，自动创建库表
@@ -106,7 +106,7 @@ spring:
     host: localhost
     port: 6379
     timeout: 5000
-    password: 123456
+    password: a435564745
 ```
 
 2）修改 `application.yml` 中的 session 存储方式：
@@ -140,8 +140,8 @@ spring:
 spring:
   elasticsearch:
     uris: http://localhost:9200
-    username: root
-    password: 123456
+    username: mimi
+    password: a435564745
 ```
 
 2）复制 `sql/post_es_mapping.json` 文件中的内容，通过调用 Elasticsearch 的接口或者 Kibana Dev Tools 来创建索引（相当于数据库建表）

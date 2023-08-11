@@ -3,7 +3,7 @@
 # @from <a href="https://yupi.icu">编程导航知识星球</a>
 spring:
   application:
-    name: springboot-init
+    name: miapi
   # 默认 dev 环境
   profiles:
     active: dev
@@ -21,9 +21,9 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/my_db
-    username: root
-    password: 123456
+    url: jdbc:mysql://localhost:3306/miapi
+    username: mimi
+    password: a435564745
   # Redis 配置
   # todo 需替换配置，然后取消注释
 #  redis:
@@ -31,13 +31,13 @@ spring:
 #    host: localhost
 #    port: 6379
 #    timeout: 5000
-#    password: 123456
+#    password: a435564745
   # Elasticsearch 配置
   # todo 需替换配置，然后取消注释
 #  elasticsearch:
 #    uris: http://localhost:9200
-#    username: root
-#    password: 123456
+#    username: mimi
+#    password: a435564745
   # 文件上传
   servlet:
     multipart:
